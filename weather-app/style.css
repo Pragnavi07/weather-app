@@ -1,0 +1,91 @@
+/* General body styling */
+body {
+  background-image: url('images/weather-bg.jpg'); /* You can choose a bright and visually appealing background */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.6
+  ); /* Light background to make text pop */
+  backdrop-filter: blur(5px); /* Adds a blur effect to the background */
+}
+
+/* Container for weather information */
+.weather-container {
+  text-align: center;
+  background: rgba(
+    0,
+    0,
+    0,
+    0.7
+  ); /* Dark background for better contrast with text */
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  max-width: 400px;
+  width: 100%;
+}
+
+/* Title styling */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #ffd700; /* Gold color for title */
+}
+
+/* Input and button styling */
+input,
+button {
+  padding: 10px;
+  margin: 10px;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+}
+
+input {
+  width: 70%;
+  background-color: #fff;
+}
+
+button {
+  background-color: #ffd700;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ffa500;
+}
+
+/* Weather info styling */
+.weather-info {
+  margin-top: 20px;
+}
+
+.weather-info h3 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.weather-info p {
+  font-size: 1.2rem;
+}
+
+.weather-info .weather-icon {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 20px;
+}
